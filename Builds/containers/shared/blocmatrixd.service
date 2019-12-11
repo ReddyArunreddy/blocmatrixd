@@ -1,0 +1,15 @@
+[Unit]
+Description=Blocmatrix Daemon
+
+[Service]
+Type=simple
+ExecStart=/opt/blocmatrix/bin/blocmatrixd --net --silent --conf /etc/opt/blocmatrix/blocmatrixd.cfg
+# Default KillSignal can be used if/when blocmatrixd handles SIGTERM
+KillSignal=SIGINT
+Restart=no
+User=blocmatrixd
+Group=blocmatrixd
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
