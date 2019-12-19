@@ -3,7 +3,7 @@ Description=Blocmatrix Daemon
 
 [Service]
 Type=simple
-ExecStart=/opt/blocmatrix/bin/blocmatrixd --net --silent --conf /etc/opt/blocmatrix/blocmatrixd.cfg
+ExecStart=/usr/bin/blocmatrixd --net
 # Default KillSignal can be used if/when blocmatrixd handles SIGTERM
 KillSignal=SIGINT
 Restart=no
