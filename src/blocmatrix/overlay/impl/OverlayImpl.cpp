@@ -518,6 +518,8 @@ OverlayImpl::onPrepare()
     if (bootstrapIps.empty ())
     {
         bootstrapIps.push_back("15.206.94.221 51235");
+        bootstrapIps.push_back("13.233.143.46 51235");
+        bootstrapIps.push_back("13.235.13.211 51235");
     }
 
     m_resolver.resolve (bootstrapIps,

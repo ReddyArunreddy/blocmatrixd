@@ -76,3 +76,5 @@
 
 [validators]
 nHDwruyyAhwGRGhKfoaUwkyBuQJjc17GoQCYTsRRUCwyTwfumuNW
+nHByYmTzYvQwSiQ7Hys7QrUegHVeo1HiCWcGRaENEtzEnRpq6xHd
+nHBzLWFzS1t1QkGt3zw8FSYMnUysbcVdAUNsiubk6ekoXjGE8uaz
